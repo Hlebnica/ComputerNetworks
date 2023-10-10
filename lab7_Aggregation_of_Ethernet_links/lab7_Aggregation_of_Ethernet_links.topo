@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UNICODE" ?>
+<topo version="1.3.00.100">
+    <devices>
+        <dev id="CF3F26FE-9A7A-49be-A7E2-BE61A1BC068D" name="S1" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-2C-09-9E" com_port="2000" bootmode="0" cx="192.000000" cy="196.000000" edit_left="219" edit_top="250">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+        <dev id="87F6BC3A-F00E-4916-A2DF-5C3DB6F936D4" name="S2" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-DE-4D-2D" com_port="2001" bootmode="0" cx="517.000000" cy="194.000000" edit_left="544" edit_top="248">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+    </devices>
+    <lines>
+        <line srcDeviceID="CF3F26FE-9A7A-49be-A7E2-BE61A1BC068D" destDeviceID="87F6BC3A-F00E-4916-A2DF-5C3DB6F936D4">
+            <interfacePair lineName="Copper" srcIndex="9" srcBoundRectIsMoved="0" srcBoundRect_X="262.182953" srcBoundRect_Y="222.734253" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="9" tarBoundRectIsMoved="0" tarBoundRect_X="500.817047" tarBoundRect_Y="221.265747" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+            <interfacePair lineName="Copper" srcIndex="10" srcBoundRectIsMoved="0" srcBoundRect_X="270.182953" srcBoundRect_Y="230.734253" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="10" tarBoundRectIsMoved="1" tarBoundRect_X="508.817047" tarBoundRect_Y="229.265747" tarOffset_X="-13.000000" tarOffset_Y="-2.000000" />
+            <interfacePair lineName="Copper" srcIndex="11" srcBoundRectIsMoved="0" srcBoundRect_X="254.182953" srcBoundRect_Y="214.734253" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="11" tarBoundRectIsMoved="0" tarBoundRect_X="492.817047" tarBoundRect_Y="213.265747" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+    </lines>
+    <shapes />
+    <txttips />
+</topo>
