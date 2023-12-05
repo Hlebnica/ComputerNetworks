@@ -36,7 +36,7 @@
                 <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
             </slot>
         </dev>
-        <dev id="BA8EC0E8-6DE2-4e36-8BD6-93CCA3077424" name="WEB" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-A0-01-26 -ipaddr 0.0.0.0 -ipmask 255.255.255.0 -gateway 0.0.0.0 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-27-77-F8" com_port="0" bootmode="0" cx="163.000000" cy="656.000000" edit_left="190" edit_top="710">
+        <dev id="BA8EC0E8-6DE2-4e36-8BD6-93CCA3077424" name="WEB" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-A0-01-26 -ipaddr 0.0.0.0 -ipmask 255.255.255.0 -gateway 0.0.0.0 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-8B-54-9A" com_port="0" bootmode="0" cx="163.000000" cy="656.000000" edit_left="190" edit_top="710">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
             </slot>
@@ -62,40 +62,19 @@
                 <interface sztype="Ethernet" interfacename="GE" count="2" />
             </slot>
         </dev>
-        <dev id="18437D25-A96E-4c09-BC3E-C7FD04FF8219" name="ServRouter" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-CD-24-C5" com_port="2000" bootmode="0" cx="436.000000" cy="581.000000" edit_left="463" edit_top="635">
-            <slot number="slot17" isMainBoard="1">
-                <interface sztype="Ethernet" interfacename="GE" count="1" />
-                <interface sztype="Ethernet" interfacename="GE" count="2" />
-            </slot>
-        </dev>
         <dev id="870B35F3-86CC-4c0e-9782-C74804B9FB14" name="ServAC" poe="0" model="AC6005" settings="" system_mac="00-E0-FC-38-21-70" com_port="2002" bootmode="0" cx="33.000000" cy="435.000000" edit_left="60" edit_top="489">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="GE" count="8" />
             </slot>
         </dev>
-        <dev id="6129B1B8-66AA-430c-9B4C-C6BE4383F30E" name="FTP" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-A8-6C-51 -ipaddr 0.0.0.0 -ipmask 255.255.255.0 -gateway 0.0.0.0 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-B7-44-66" com_port="0" bootmode="0" cx="1.000000" cy="532.000000" edit_left="28" edit_top="586">
+        <dev id="6129B1B8-66AA-430c-9B4C-C6BE4383F30E" name="FTP" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-A8-6C-51 -ipaddr 0.0.0.0 -ipmask 255.255.255.0 -gateway 0.0.0.0 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-50-41-8A" com_port="0" bootmode="0" cx="1.000000" cy="532.000000" edit_left="28" edit_top="586">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
             </slot>
         </dev>
-        <dev id="65B983E1-7CCE-4412-BCD1-3DBEA0AE9EBE" name="DNS" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-1E-27-91 -ipaddr 0.0.0.0 -ipmask 255.255.255.0 -gateway 0.0.0.0 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-B5-0F-64" com_port="0" bootmode="0" cx="28.000000" cy="627.000000" edit_left="55" edit_top="681">
+        <dev id="65B983E1-7CCE-4412-BCD1-3DBEA0AE9EBE" name="DNS" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-1E-27-91 -ipaddr 0.0.0.0 -ipmask 255.255.255.0 -gateway 0.0.0.0 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-4E-0B-88" com_port="0" bootmode="0" cx="28.000000" cy="627.000000" edit_left="55" edit_top="681">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
-            </slot>
-        </dev>
-        <dev id="6CF187A5-56A9-4cea-9641-41722277B10C" name="ServSwitch" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-C1-23-03" com_port="2001" bootmode="0" cx="319.000000" cy="485.000000" edit_left="351" edit_top="543">
-            <slot number="slot17" isMainBoard="1">
-                <interface sztype="Ethernet" interfacename="GE" count="24" />
-            </slot>
-        </dev>
-        <dev id="A0AE4DC5-43DF-45d3-89A1-C82159793C5B" name="StockSwitch" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-30-16-43" com_port="2003" bootmode="0" cx="920.000000" cy="439.000000" edit_left="942" edit_top="428">
-            <slot number="slot17" isMainBoard="1">
-                <interface sztype="Ethernet" interfacename="GE" count="24" />
-            </slot>
-        </dev>
-        <dev id="A036F0AE-0FA1-4a80-83DB-7DE9D4686A40" name="SMAESwitch" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-21-67-8B" com_port="2004" bootmode="0" cx="974.000000" cy="193.000000" edit_left="999" edit_top="242">
-            <slot number="slot17" isMainBoard="1">
-                <interface sztype="Ethernet" interfacename="GE" count="24" />
             </slot>
         </dev>
         <dev id="43D97D08-1EBF-423e-953E-5644A7A35F94" name="CEOSwitch" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-11-46-B1" com_port="2005" bootmode="0" cx="669.000000" cy="120.000000" edit_left="750" edit_top="153">
@@ -104,6 +83,27 @@
             </slot>
         </dev>
         <dev id="17289F10-9AB6-41b1-BA8C-313240B04353" name="SMSwitch" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-E1-12-23" com_port="2006" bootmode="0" cx="244.000000" cy="108.000000" edit_left="321" edit_top="124">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+        <dev id="6CF187A5-56A9-4cea-9641-41722277B10C" name="ServSwitch" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-C1-23-03" com_port="2001" bootmode="0" cx="319.000000" cy="485.000000" edit_left="351" edit_top="543">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+        <dev id="18437D25-A96E-4c09-BC3E-C7FD04FF8219" name="ServRouter" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-CD-24-C5" com_port="2000" bootmode="0" cx="436.000000" cy="581.000000" edit_left="463" edit_top="635">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="A0AE4DC5-43DF-45d3-89A1-C82159793C5B" name="StockSwitch" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-30-16-43" com_port="2003" bootmode="0" cx="920.000000" cy="439.000000" edit_left="942" edit_top="428">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+        <dev id="A036F0AE-0FA1-4a80-83DB-7DE9D4686A40" name="SMAESwitch" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-21-67-8B" com_port="2004" bootmode="0" cx="974.000000" cy="193.000000" edit_left="999" edit_top="242">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="GE" count="24" />
             </slot>
