@@ -36,7 +36,7 @@
                 <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
             </slot>
         </dev>
-        <dev id="BA8EC0E8-6DE2-4e36-8BD6-93CCA3077424" name="WEB" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-A0-01-26 -ipaddr 0.0.0.0 -ipmask 255.255.255.0 -gateway 0.0.0.0 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-C5-75-93" com_port="0" bootmode="0" cx="163.000000" cy="656.000000" edit_left="190" edit_top="710">
+        <dev id="BA8EC0E8-6DE2-4e36-8BD6-93CCA3077424" name="WEB" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-A0-01-26 -ipaddr 0.0.0.0 -ipmask 255.255.255.0 -gateway 0.0.0.0 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-27-77-F8" com_port="0" bootmode="0" cx="163.000000" cy="656.000000" edit_left="190" edit_top="710">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
             </slot>
@@ -73,12 +73,12 @@
                 <interface sztype="Ethernet" interfacename="GE" count="8" />
             </slot>
         </dev>
-        <dev id="6129B1B8-66AA-430c-9B4C-C6BE4383F30E" name="FTP" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-A8-6C-51 -ipaddr 0.0.0.0 -ipmask 255.255.255.0 -gateway 0.0.0.0 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-0F-07-3C" com_port="0" bootmode="0" cx="1.000000" cy="532.000000" edit_left="28" edit_top="586">
+        <dev id="6129B1B8-66AA-430c-9B4C-C6BE4383F30E" name="FTP" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-A8-6C-51 -ipaddr 0.0.0.0 -ipmask 255.255.255.0 -gateway 0.0.0.0 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-B7-44-66" com_port="0" bootmode="0" cx="1.000000" cy="532.000000" edit_left="28" edit_top="586">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
             </slot>
         </dev>
-        <dev id="65B983E1-7CCE-4412-BCD1-3DBEA0AE9EBE" name="DNS" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-1E-27-91 -ipaddr 0.0.0.0 -ipmask 255.255.255.0 -gateway 0.0.0.0 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-FA-4A-19" com_port="0" bootmode="0" cx="28.000000" cy="627.000000" edit_left="55" edit_top="681">
+        <dev id="65B983E1-7CCE-4412-BCD1-3DBEA0AE9EBE" name="DNS" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-1E-27-91 -ipaddr 0.0.0.0 -ipmask 255.255.255.0 -gateway 0.0.0.0 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-B5-0F-64" com_port="0" bootmode="0" cx="28.000000" cy="627.000000" edit_left="55" edit_top="681">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
             </slot>
